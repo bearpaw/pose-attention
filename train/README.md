@@ -1,6 +1,6 @@
 # Multi-Context Attention for Human Pose Estimation  (Training Code)
 
-This repository includes Torch code for training of the network presented in:
+This repository includes Torch code for the training of the network presented in:
 
 > Xiao Chu, Wei Yang, Wanli Ouyang, Cheng Ma, Alan L. Yuille, Xiaogang Wang,
 > **Multi-Context Attention for Human Pose Estimation**,
@@ -21,6 +21,6 @@ This model needs 4x GPUs with 12 GB memories. We will release the optimized mode
 - The training log (`train.log` and `valid.log`) and the models will be saved into `../checkpoints` directory.
 
 ## Tips
-- We train our model for 130 epochs, and manually drop the learning rate by a factor of 10 at the 100 epoch and the 125 epoch.  
+- We train our model for 130 epochs and manually drop the learning rate by a factor of 10 at the 100 epoch and the 125 epoch.  
 - [Itersize](https://github.com/gcr/torch-residual-networks/blob/master/train-imagenet-small-singleGPU-BROKEN.lua) technique can be used if you only have a limited computing power. 
-- Contributions to this repo is welcomed. 
+- Contributions to this repo are welcomed. 

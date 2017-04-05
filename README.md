@@ -1,6 +1,6 @@
 # Multi-Context Attention for Human Pose Estimation
 
-This repository includes Torch code for evaluation and visualization of the network presented in:
+This repository includes Torch code for evaluation and training of the network presented in:
 
 > Xiao Chu, Wei Yang, Wanli Ouyang, Cheng Ma, Alan L. Yuille, Xiaogang Wang,
 > **Multi-Context Attention for Human Pose Estimation**,
@@ -22,4 +22,4 @@ To run this code, the following packages must be installed:
 For testing, please go to the `test` directory and follow the `README` for instructions.
 
 ## Training
-For testing, please go to the `train` directory and follow the `README` for instructions.
+For training, please go to the `train` directory and follow the `README` for instructions.
