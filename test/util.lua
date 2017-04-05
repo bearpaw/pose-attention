@@ -15,7 +15,7 @@ function loadAnnotations(set)
     -- Load up a set of annotations for either: 'train', 'valid', or 'test'
     -- There is no part information in 'test'
 
-    local a = hdf5.open('annot/' .. set .. '.h5')
+    local a = hdf5.open('../data/mpii/annot/' .. set .. '.h5')
     annot = {}
 
     -- Read in annotation information from hdf5 file
@@ -28,7 +28,7 @@ function loadAnnotations(set)
     -- (workaround for not being able to read the strings in the hdf5 file)
     annot.images = {}
     local toIdxs = {}
-    local namesFile = io.open('annot/' .. set .. '_images.txt')
+    local namesFile = io.open('../data/mpii/annot/' .. set .. '_images.txt')
     local idx = 1
     for line in namesFile:lines() do
         annot.images[idx] = line

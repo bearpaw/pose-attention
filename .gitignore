@@ -1,5 +1,7 @@
 # model
 test/exp/mpii/crf_parts/model.t7
+checkpoints
+train
 
 # Compiled Lua sources
 luac.out

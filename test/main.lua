@@ -20,7 +20,7 @@ local scale_search = {1.0}
 local outdim = 64
 local partnum = 17
 
-local modeldir = './exp/mpii/crf_parts/'
+local modeldir = '../checkpoints/mpii/crf_parts/'
 local modelname = 'model.t7'
 
 local modelpath = paths.concat(modeldir, modelname)
@@ -164,7 +164,7 @@ for idx = 1,nsamples do
    local respath = paths.concat(predpath, imname ..'.mat')
 
    -- Set up input image
-   local im = image.load('images/' .. a['images'][idxs[i]])
+   local im = image.load('../data/mpii/images/' .. a['images'][idxs[i]])
    local center = a['center'][idxs[i]]
    local original_scale = a['scale'][idxs[i]]
 
