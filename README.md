@@ -4,10 +4,22 @@ This repository includes Torch code for evaluation and visualization of the netw
 
 > Xiao Chu, Wei Yang, Wanli Ouyang, Cheng Ma, Alan L. Yuille, Xiaogang Wang,
 > **Multi-Context Attention for Human Pose Estimation**,
-> [arXiv:1702.07432](https://arxiv.org/abs/1702.07432), 2017.
+> CVPR, 2017. ([arXiv preprint](https://arxiv.org/abs/1702.07432))
 
-The code is developed upon [Stacked Hourglass Network](https://github.com/anewell/pose-hg-demo).
+The code is developed upon [Stacked Hourglass Network](https://github.com/anewell/pose-hg-train).
 
-The training code will be available soon. 
+## Installation
 
-For testing, please go to `test` directory and read `README` for instructions.
+To run this code, the following packages must be installed:
+
+- [Torch7](https://github.com/torch/torch7)
+- hdf5 (and the [torch-hdf5](https://github.com/deepmind/torch-hdf5/) package)
+- cudnn
+- qlua (for displaying results)
+- [matio](https://github.com/soumith/matio-ffi.torch): to save predictions in Matlab's `.mat` file.
+
+## Testing
+For testing, please go to the `test` directory and follow the `README` for instructions.
+
+## Training
+For testing, please go to the `train` directory and follow the `README` for instructions.

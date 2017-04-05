@@ -8,16 +8,6 @@ This repository includes Torch code for evaluation and visualization of the netw
 
 The code is developed upon [Stacked Hourglass Network](https://github.com/anewell/pose-hg-demo).
 
-## Installation
-
-To run this code, the following packages must be installed:
-
-- [Torch7](https://github.com/torch/torch7)
-- hdf5 (and the [torch-hdf5](https://github.com/deepmind/torch-hdf5/) package)
-- cudnn
-- qlua (for displaying results)
-- [matio](https://github.com/soumith/matio-ffi.torch): to save predictions in Matlab's `.mat` file.
-
 ## Usage
 
 1. Download the pretrained model from [Google Drive](https://drive.google.com/open?id=0B63t5HSgY4SQZV9vN1hnMEItYTg) and save it to `../checkpoints/mpii/crf_parts/model.t7`
