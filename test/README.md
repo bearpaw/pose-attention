@@ -10,7 +10,7 @@ The code is developed upon [Stacked Hourglass Network](https://github.com/anewel
 
 ## Usage
 
-1. Download the pretrained model from [Google Drive](https://drive.google.com/open?id=0B63t5HSgY4SQZV9vN1hnMEItYTg) and save it to `../checkpoints/mpii/crf_parts/model.t7`
+1. Download the pretrained model from [Google Drive](https://drive.google.com/file/d/0B63t5HSgY4SQZV9vN1hnMEItYTg/view?usp=sharing&resourcekey=0-DVuMMAI91emJF8tkJoRprA) and save it to `../checkpoints/mpii/crf_parts/model.t7`
 
 2. Run the demo 
 `qlua main.lua demo`
